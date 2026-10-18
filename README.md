@@ -1,4 +1,4 @@
-# design_skills
+# alfo-design
 
 Conglomerado de skills para que cualquier proyecto tenga mejor diseño. Un manifiesto como ley y ocho
 skills que lo aplican: dirección de arte, sistema de diseño, revisión, imagen a código y QA en
@@ -62,5 +62,22 @@ Lo vendorizado no se edita a mano:
 bash scripts/sync-upstream.sh
 ```
 
-Commits y licencias en [`third_party/`](third_party/UPSTREAM.md). Taste Skill, Web Interface
-Guidelines y awesome-design-md son MIT; Playwright CLI, Apache-2.0.
+Commits y licencias en [`third_party/`](third_party/UPSTREAM.md).
+
+## Licencia y créditos
+
+El código y los textos propios (manifiesto, `design-manifesto`, `design-md`, `image-to-code`,
+`interface-review`, `visual-qa`, scripts) son [MIT](LICENSE).
+
+Lo vendorizado conserva su licencia y autoría:
+
+| Proyecto | Autor | Licencia | Dónde está |
+| --- | --- | --- | --- |
+| [Taste Skill](https://github.com/Leonxlnx/taste-skill) | Leonxlnx | MIT | `skills/taste-frontend/`, `skills/taste-redesign/`, `skills/image-to-code/references/upstream-image-first.md` |
+| [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines) | Vercel Labs | MIT | `skills/interface-review/vercel-rules.md` |
+| [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | VoltAgent | MIT | `skills/design-md/brands/` |
+| [Playwright CLI](https://github.com/microsoft/playwright-cli) | Microsoft | Apache-2.0 | `skills/playwright-cli/` |
+
+Textos completos en [`third_party/LICENSE.*`](third_party/). Los nombres y marcas de
+`skills/design-md/brands/` pertenecen a sus dueños; esos archivos describen estilos visuales como
+referencia y no implican afiliación ni respaldo.
