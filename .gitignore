@@ -1,0 +1,4 @@
+node_modules/
+.visual-qa/
+.taste-skill/
+.playwright-cli/

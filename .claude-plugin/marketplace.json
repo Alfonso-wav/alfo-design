@@ -1,0 +1,15 @@
+{
+  "name": "alfo-design",
+  "description": "Skills de diseño frontend: manifiesto, dirección de arte, DESIGN.md, revisión, imagen a código y QA visual.",
+  "owner": {
+    "name": "alfo"
+  },
+  "plugins": [
+    {
+      "name": "alfo-design",
+      "description": "Manifiesto de diseño + skills: taste-frontend, design-md, interface-review, image-to-code, visual-qa, playwright-cli.",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}

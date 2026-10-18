@@ -1,0 +1,8 @@
+{
+  "name": "alfo-design",
+  "description": "Manifiesto de diseño + skills para diseñar, construir y probar interfaces: dirección de arte anti-slop (Taste Skill), sistema DESIGN.md con 84 marcas de referencia (awesome-design-md), revisión con las Web Interface Guidelines de Vercel, imagen a código y QA visual en navegador real con Playwright CLI.",
+  "version": "0.1.0",
+  "author": { "name": "alfo" },
+  "license": "MIT",
+  "keywords": ["design", "frontend", "ui", "design-system", "accessibility", "playwright", "taste"]
+}

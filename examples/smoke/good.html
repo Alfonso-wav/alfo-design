@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Horno 5</title>
+<meta name="theme-color" content="#f4f1ea">
+<style>
+:root{--canvas:#f4f1ea;--ink:#141412;--accent:#b3261e;--surface:#e8e3d8;color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root{--canvas:#141412;--ink:#f4f1ea;--surface:#22221f;--accent:#ff8a7a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--ink);font:400 18px/1.5 Georgia,serif}
+header,main section{padding:24px clamp(16px,4vw,32px)}
+nav{display:flex;justify-content:space-between;align-items:center;gap:16px}
+nav a{color:var(--ink);padding:12px 4px}
+h1{font-size:clamp(44px,9vw,128px);line-height:.95;letter-spacing:-.03em;margin:120px 0 24px;max-width:12ch;text-wrap:balance}
+.lead{max-width:38ch}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:16px 24px;text-decoration:none;font-weight:700}
+.cta:hover{filter:brightness(1.1)}
+a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.menu{background:var(--surface);margin-top:160px}
+.menu li{display:flex;justify-content:space-between;gap:16px;font-variant-numeric:tabular-nums;padding:8px 0}
+ul{list-style:none;padding:0;max-width:640px}
+@media (prefers-color-scheme:dark){.cta{color:#141412}}
+</style></head><body>
+<header><nav><strong>Horno 5</strong><a href="#carta">Carta</a></nav>
+<h1>Pan de las cinco</h1>
+<p class="lead">El horno se enciende a las cinco de la mañana en la calle del Pez, 5. A las ocho ya no queda masa madre.</p>
+<a class="cta" href="#carta">Ver la carta de hoy</a></header>
+<main><section class="menu" id="carta"><h2>Carta de hoy</h2>
+<ul><li><span>Hogaza de centeno</span><span>4,20&nbsp;€</span></li><li><span>Barra de masa madre</span><span>2,10&nbsp;€</span></li></ul></section></main>
+</body></html>
